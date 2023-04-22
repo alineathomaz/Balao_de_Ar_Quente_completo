@@ -278,8 +278,6 @@ async function getBackgroundImg()
   {    
     bg.addImage(bgImg);
     bg.scale = 1.3
-    bg.x=200
-    bg.y=200
   }
   else
   {    
