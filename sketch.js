@@ -268,7 +268,7 @@ function Score()
 //usando chamadas de API para definir a imagem de plano de fundo de acordo com o tempo
 async function getBackgroundImg()
 {
-  var response = await fetch("http://worldtimeapi.org/api/timezone/Asia/Kolkata");
+  var response = await fetch('http://worldtimeapi.org/api/timezone/Asia/Kolkata');
   var responseJSON = await response.json();
 
   var datetime = responseJSON.datetime;
