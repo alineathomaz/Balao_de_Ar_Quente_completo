@@ -19,7 +19,7 @@ function preload()
   bgImg = loadImage("./assets/bg.png")
   bgImg2 = loadImage("./assets/bgImg2.jpg")
 
-  balloonImg = loadAnimation("assets/balloon1.png","assets/balloon2.png","assets/balloon3.png")
+  balloonImg = loadAnimation("./assets/balloon1.png","./assets/balloon2.png","./assets/balloon3.png")
   
   obsTop1 = loadImage("./assets/obsTop1.png")
   obsTop2 = loadImage("assets/obsTop2.png")
