@@ -16,23 +16,23 @@ var gameState = PLAY;
 
 function preload()
 {
-  bgImg = loadImage("assets/bg.png")
-  bgImg2 = loadImage("assets/bgImg2.jpg")
+  bgImg = loadImage("./assets/bg.png")
+  bgImg2 = loadImage("./assets/bgImg2.jpg")
 
   balloonImg = loadAnimation("assets/balloon1.png","assets/balloon2.png","assets/balloon3.png")
   
-  obsTop1 = loadImage("assets/obsTop1.png")
+  obsTop1 = loadImage("./assets/obsTop1.png")
   obsTop2 = loadImage("assets/obsTop2.png")
   
-  obsBottom1 = loadImage("assets/obsBottom1.png")
-  obsBottom2 = loadImage("assets/obsBottom2.png")
-  obsBottom3 = loadImage("assets/obsBottom3.png")
+  obsBottom1 = loadImage("./assets/obsBottom1.png")
+  obsBottom2 = loadImage("./assets/obsBottom2.png")
+  obsBottom3 = loadImage("./assets/obsBottom3.png")
   
-  gameOverImg= loadImage("assets/fimdejogo.png")
-  restartImg = loadImage("assets/restart.png")
+  gameOverImg= loadImage("./assets/fimdejogo.png")
+  restartImg = loadImage("./assets/restart.png")
 
-  jumpSound = loadSound("assets/jump.mp3");
-  dieSound = loadSound("assets/die.mp3");
+  jumpSound = loadSound("./assets/jump.mp3");
+  dieSound = loadSound("./assets/die.mp3");
 }
 
 function setup()
